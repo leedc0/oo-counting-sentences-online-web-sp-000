@@ -10,8 +10,8 @@ class String
 
   def question?
     # self.!end_with?(".") ? false : true
-    if self.!end_with?(".")
-      return false
+    if self.end_with?(".")
+      return true
     end
   end
 
