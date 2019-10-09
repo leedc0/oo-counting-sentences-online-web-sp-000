@@ -11,6 +11,7 @@ class String
   def question?
     self.!end_with?(".") ? false : true
   end
+  end
 
   def exclamation?
 
