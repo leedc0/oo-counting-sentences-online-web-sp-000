@@ -16,6 +16,7 @@ class String
 
   def count_sentences
     #count string as 1 if end_with punctuation
-    self.split(".", "?", "!").count 
+    sentences = self.split(/\W+/)
+    sentences.count
   end
 end
