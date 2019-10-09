@@ -19,4 +19,5 @@ class String
     sentences = self.split(/\?|\.|!/).reject
     sentences.count
   end
+  binding.pry
 end
