@@ -12,6 +12,7 @@ class String
     # self.!end_with?(".") ? false : true
     if self.!end_with?(".")
       return false
+    end
   end
 
   def exclamation?
